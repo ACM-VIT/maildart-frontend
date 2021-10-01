@@ -22,11 +22,6 @@
     <a href="https://grass-text-1a7.notion.site/Maildart-9dec4c315dcf407fa73d06a3023edc6c"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="https://github.com/acm-vit/maildart-frontend">View Demo</a>
-    ·
-    <a href="https://github.com/acm-vit/maildart-frontend/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/acm-vit/maildart-frontend/issues">Request Feature</a> -->
   </p>
 </p>
 
@@ -40,13 +35,6 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -65,8 +53,7 @@ Ever wanted to send mass e-mails to particular users, say no more. Maildart, the
 
 This is a platform which is used to send mass emails using multiple platforms like listmonk, mailgun, nodemailer and sendgrid. It can also show you the live preview of the email and in the end it will show you which emails were sent and which failed in a minimalistic console.
 
----
-
+<!-- BUILT WITH -->
 ### Built With
 
 * [React](https://reactjs.org/)
@@ -79,7 +66,7 @@ This is a platform which is used to send mass emails using multiple platforms li
 See the [notion guide](https://grass-text-1a7.notion.site/Maildart-9dec4c315dcf407fa73d06a3023edc6c) for a list of proposed features.
 
 ---
-
+<!-- USAGE -->
 ## Usage
 
 To setup project locally, fork the repository.
