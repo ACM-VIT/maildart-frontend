@@ -125,7 +125,7 @@ git push origin [YOUR-BRANCH-NAME]
 ```
 
 * Create a pull request. Go to the target repository and click on the "Compare & pull request" button. **Make sure your PR description mentions which issues you're solving.**
-![example pr](https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download)
+![example pr](https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G)
 * Wait for your request to be accepted.
 
 ---
