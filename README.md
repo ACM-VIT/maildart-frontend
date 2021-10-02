@@ -147,4 +147,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ACM-VIT/mail
 [issues-shield]: https://img.shields.io/github/issues/acm-vit/maildart-frontend.svg?style=for-the-badge
 [issues-url]: https://github.com/acm-vit/maildart-frontend/issues
 [license-shield]: https://img.shields.io/github/license/acm-vit/maildart-frontend.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/ACM-VIT/maildart-frontend/blob/master/LICENSE
