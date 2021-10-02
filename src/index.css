@@ -2,3 +2,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mailing-form{
+    background-color: rgb(219, 219, 219);
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    padding: 10px;
+}
+.mailing-form button{
+    background-color: #fff;
+    color: #111;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+}
+.mailing-form button:hover{
+    background-color: #049aff;
+    color: #fff;
+}
+.radio-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-form input{
+    margin-right: 3px;
+}
