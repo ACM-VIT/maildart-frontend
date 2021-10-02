@@ -1,70 +1,150 @@
-# Getting Started with Create React App
+<!-- PROJECT SHIELDS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://hacktoberfest.digitalocean.com/">
+    <img src="https://user-images.githubusercontent.com/52633729/135446856-ed1de284-c21a-4932-bd70-b4eae149c49c.png" alt="Logo">
+  </a>
 
-### `npm start`
+  <h3 align="center">Maildart</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    A mass mailer operating through a given set of emails in CSV/JSON
+    <br />
+    <a href="https://grass-text-1a7.notion.site/Maildart-9dec4c315dcf407fa73d06a3023edc6c"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ever wanted to send mass e-mails to particular users, say no more. Maildart, the one-shot tech that will solve your problems.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is a platform which is used to send mass emails using multiple platforms like listmonk, mailgun, nodemailer and sendgrid. It can also show you the live preview of the email and in the end it will show you which emails were sent and which failed in a minimalistic console.
 
-### `npm run eject`
+<!-- BUILT WITH -->
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [React](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+<!-- ROADMAP -->
+## Roadmap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+See the [notion guide](https://grass-text-1a7.notion.site/Maildart-9dec4c315dcf407fa73d06a3023edc6c) for a list of proposed features.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
+<!-- USAGE -->
+## Usage
 
-## Learn More
+To setup project locally, fork the repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```console
+# install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# run the server
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+* Fork the repository by clicking the fork button on top right corner of the page
+* Clone the target repository. To clone, click on the clone button and copy the https address. Then run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/ACM-VIT/maildart-frontend.git
+```
 
-### Advanced Configuration
+* Go to the cloned directory by running
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+cd maildart-frontend
+```
 
-### Deployment
+* Create a new branch. Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git checkout -b [YOUR-BRANCH-NAME]
+```
 
-### `npm run build` fails to minify
+* Make your changes to the code. Add changes to your branch by using
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git add .
+```
+
+* Commit the chanes by executing
+
+```bash
+git commit -m "your msg"
+```
+
+* Push to remote. To do this, run
+
+```bash
+git push origin [YOUR-BRANCH-NAME]
+```
+
+* Create a pull request. Go to the target repository and click on the "Compare & pull request" button. **Make sure your PR description mentions which issues you're solving.**
+![example pr](https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download)
+* Wait for your request to be accepted.
+
+---
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/ACM-VIT/maildart-frontend/blob/master/LICENSE) for more information.
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/acm-vit/maildart-frontend.svg?style=for-the-badge
+[contributors-url]: https://github.com/acm-vit/maildart-frontend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/acm-vit/maildart-frontend?style=for-the-badge
+[forks-url]: https://github.com/acm-vit/maildart-frontend/network/members
+[stars-shield]: https://img.shields.io/github/stars/acm-vit/maildart-frontend.svg?style=for-the-badge
+[stars-url]: https://github.com/acm-vit/maildart-frontend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/acm-vit/maildart-frontend.svg?style=for-the-badge
+[issues-url]: https://github.com/acm-vit/maildart-frontend/issues
+[license-shield]: https://img.shields.io/github/license/acm-vit/maildart-frontend.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
