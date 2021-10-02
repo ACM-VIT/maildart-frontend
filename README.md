@@ -146,5 +146,10 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ACM-VIT/mail
 [stars-url]: https://github.com/acm-vit/maildart-frontend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/acm-vit/maildart-frontend.svg?style=for-the-badge
 [issues-url]: https://github.com/acm-vit/maildart-frontend/issues
-[license-shield]: https://img.shields.io/github/license/acm-vit/maildart-frontend.svg?style=for-the-badge
+[license-shield]:https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/ACM-VIT/maildart-frontend/blob/master/LICENSE
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
