@@ -7,19 +7,19 @@ const Radio = () => {
     <div className="flex-1">
       <form >
         <span className="p-4">
-              <input className="form-radio text-indigo-600" type="radio" value="Listmonk" id="Listmonk" name="mail" onChange={()=>{setservice('Listmonk')}} checked={service==='Listmonk'}/>
+              <input className="m-0.5" type="radio" value="Listmonk" id="Listmonk" name="mail" onChange={()=>{setservice('Listmonk')}} checked={service==='Listmonk'}/>
               <label for="listmonk">Listmonk</label>
         </span>
         <span className="p-4">
-              <input type="radio" value="Nodemailer" id="Nodemailer" name="mail" onChange={()=>{setservice('Nodemailer')}} checked={service==='Nodemailer'}/>
+              <input className="m-0.5" type="radio" value="Nodemailer" id="Nodemailer" name="mail" onChange={()=>{setservice('Nodemailer')}} checked={service==='Nodemailer'}/>
               <label for="Nodemailer">Nodemailer</label>
         </span>
         <span className="p-4">
-              <input type="radio" value="Mailgun" id="Mailgun" name="mail" onChange={()=>{setservice('Mailgun')}} checked={service==='Mailgun'}/>
+              <input className="m-0.5" type="radio" value="Mailgun" id="Mailgun" name="mail" onChange={()=>{setservice('Mailgun')}} checked={service==='Mailgun'}/>
               <label for="Mailgun">Mailgun</label>
         </span>
         <span className="p-4">
-              <input type="radio" value="SendGrid" id="SendGrid" name="mail" onChange={()=>{setservice('SendGrid')}} checked={service==='SendGrid'}/>
+              <input className="m-0.5" type="radio" value="SendGrid" id="SendGrid" name="mail" onChange={()=>{setservice('SendGrid')}} checked={service==='SendGrid'}/>
               <label for="SendGrid">SendGrid</label>
         </span>
       </form>
