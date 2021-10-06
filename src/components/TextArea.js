@@ -8,7 +8,7 @@ export default function TextArea() {
             <h1>Email Template</h1>
             <textarea className='justify-center m-2
         border
-        padding: 10'>
+        p-3.5'>
                 <input onChange={onChange}
                     value={text}></input>
             </textarea>
