@@ -6,8 +6,8 @@ export default function TextArea() {
     return (
         <div >
             <h1>Email Template</h1>
-            <textarea className='justify-center margin: 12  
-        borderWidth: 1
+            <textarea className='justify-center m-2
+        border
         padding: 10'>
                 <input onChange={onChange}
                     value={text}></input>
