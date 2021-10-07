@@ -1,12 +1,13 @@
 import Radio from './components/Radio'
 import TextArea from './components/TextArea'
+import NewForm from './components/NewForm';
+
 function App() {
-
-
   return (
     <div className="App">
       <Radio />
-      <TextArea />
+      <NewForm/>
+      <TextArea/>     
     </div>
   );
 }
