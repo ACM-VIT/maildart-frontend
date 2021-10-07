@@ -8,20 +8,15 @@ const Input = ({ title, type }) => {
         <div className='h-full py-4'  >
             <h6 className='mx-2 py-0'>{title}</h6>
             <input
-
                 type={type}
                 value={text}
-
-
-
                 placeholder={' '}
                 onChange={event => {
                     setText(event.target.value)
                 }} className='mx-2  w-2/4 
             border
         p-0.5'>
-
-            </input>
+           </input>
         </div >)
 }
 
@@ -41,8 +36,7 @@ export default function InputFields() {
                 onClick={(event) => {
                     event.target.value = null
                 }}
-
-            />
+              />
             <Input title='Authkey/Credentials' type='text' />
         </div>)
 }
