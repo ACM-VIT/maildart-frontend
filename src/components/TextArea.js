@@ -5,7 +5,7 @@ export default function TextArea() {
     const [text, setText] = useState(' ');
     const [subject, setSubject] = useState(' ');
     const [credentials, setCredentials] = useState(' ');
-    const [file, setFile] = useState();
+    const [file, setFile] = useState('');
     const [emailText, setEmailText] = useState('there will be some email content');
 
 
