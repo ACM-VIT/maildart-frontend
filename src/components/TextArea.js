@@ -52,7 +52,7 @@ export default function TextArea() {
         ></textarea>
 
         <div className="m-2 w-11/12 flex items-end justify-end">
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  rounded  ">
+          <button onClick={()=>{setEmailText(text)}} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  rounded  ">
             SEND
           </button>
         </div>
