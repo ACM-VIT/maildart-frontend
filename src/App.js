@@ -1,5 +1,5 @@
-import Radio from './components/Radio'
-import TextArea from './components/TextArea'
+import Radio from './components/Radio/Radio'
+import TextArea from './components/TextArea/TextArea'
 function App() {
 
 
